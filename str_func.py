@@ -4,5 +4,6 @@
 
 
 def revert_upper(word: str)->str:
+    """ Принимает слово, возвращает слоыо заглавными буквами """    
     return word.upper()
 
