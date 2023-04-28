@@ -4,6 +4,20 @@
 
 
 def revert_upper(word: str)->str:
-    """ Принимает слово, возвращает слоыо заглавными буквами """    
+    """
+       делает все буквы заглавными
+       :param word: string
+       :return:string
+    """
     return word.upper()
+
+def revert_f_upper(word: str)->str:
+    """
+    делает заглавными первые буквы каждого слова в строке
+    :param word: string
+    :return:string
+    """
+    return word.title()
+
+
 
